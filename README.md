@@ -65,28 +65,6 @@ Implementar um sistema de combate usando o padrão Strategy onde personagens pod
 - **Habilidade Passiva:** "Regeneração de Mana" - +10 mana por turno
 - **Armas Permitidas:** Cajados, Adagas
 
-## 🔧 Implementações Recomendadas
-
-### 1. Implementação Base
-- [ ] Implementar a interface `Arma` e pelo menos 3 tipos de armas diferentes
-- [ ] Criar as classes `Guerreiro`, `Arqueiro` e `Mago`
-- [ ] Implementar o método `atacar()` com dano básico
-
-### 2. Efeitos Especiais
-- [ ] Implementar o sistema de `StatusEffect`
-- [ ] Adicionar pelo menos 3 efeitos diferentes (sangramento, queimadura, atordoado)
-- [ ] Implementar a lógica de aplicação de efeitos nas armas
-
-### 3. Sistema de Batalha
-- [ ] Criar a classe `Batalha` que gerencia turnos
-- [ ] Implementar troca de armas durante a batalha
-- [ ] Adicionar lógica de vitória/derrota
-
-### 4. Extensões (Opcional)
-- [ ] Adicionar uma nova arma com efeito único
-- [ ] Implementar um sistema de crítico (dano aleatório)
-- [ ] Criar um personagem híbrido (ex: Paladino)
-
 ## 🎓 Padrão de Projeto
 
 Este projeto utiliza o **padrão Strategy** para permitir que personagens possam trocar de armas dinamicamente durante o combate, sem alterar a estrutura das classes de personagens.
